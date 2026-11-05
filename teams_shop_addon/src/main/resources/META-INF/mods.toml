@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="teamshop"
+version="${file.jarVersion}"
+displayName="Teams Shop & Ranks Addon"
+authors="Developer"
+description='Addon for Teams mod adding NPC shops, team currency/ranks, and admin rank config.'
+
+[[dependencies.teamshop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.teamshop]]
+    modId="teams"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
